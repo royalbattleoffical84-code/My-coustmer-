@@ -1,0 +1,33 @@
+{
+  "name": "victoryx-backend",
+  "version": "1.0.0",
+  "description": "VictoryX - Tournament Platform Backend with Automatic Notifications",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend-index.js",
+    "dev": "nodemon backend-index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "victoryx",
+    "tournaments",
+    "firebase",
+    "notifications",
+    "realtime"
+  ],
+  "author": "Build by Shivam",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.10.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
