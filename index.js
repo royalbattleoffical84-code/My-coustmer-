@@ -20,14 +20,15 @@ app.use(express.json());
 const serviceAccount = {
     type: "service_account",
     project_id: "app-for-me-2304e",
-    private_key_id: "YOUR_PRIVATE_KEY_ID",
-    private_key: "YOUR_PRIVATE_KEY",
+    private_key_id: "ee3706ff422e94a1dd3439c8065b790ddf9f6318",
+    private_key: "-----BEGIN PRIVATE KEY-----\nMIIEugIBADANBgkqhkiG9w0BAQEFAASCBKQwggSgAgEAAoIBAQDV1QJ0vTGOJiY5\nT3ynQle5XPkLsx9Q5AsRMgmfLVzImsOUK5zcUhPn5FCp2u71zHc8d29CVz5CpDG3\ny2M3C2rmMNIwu0sSQYyUx1wMK1OTYNA8zV2s84cCKazPmPqZ39y9q+L2msj3heVf\nj8ZjcT4FzJwgD7ZvTOfdPvgfrgI6+nV64kwjInYQINhnVQgIi5XnnadjlGyKDB58\ne8KJXYHhW2YCG1yhsCPzp3DyUSsMoY23qToO0hes5+6UZTxgPWnuMUuy259aTluc\nGVJLhVXBI/f3CPoTtEmV9FKIvY6Ky6JoyLWsarV7qATxR10/O29DWUzSclAsyFub\nORMl1fUPAgMBAAECgf9jQf1h3cX4YL0IMrLU8SFyFIuGYsn77TSLRtmF314HwHoI\nzYstZOwt4vg5NZIMMbJ83vPxAjkPC34IqDXl1zxH82GePVJw/FHFaMUm4PW/87C1\n3fPIf0KsPlbOsV73uR0+Q2DswpeG+SBVZj0w6+AJJnFScKNpXB7vvyBuPtfKMp89\ntRaj5bszQm8WqmltbNXCEgtsAVhM0P/yVnV0y+ghm4sS6twbBrMLotjJZzieVip7\nCG80VmmpBq2WqquwPsYHuH0EgNG3XqrFLpn+g8tCBqG3qtQnH+fR3tXR9CIn55Y4\ngymh/h72TdW1wl5wXBaxqSwYLMDtsadMFBX9/Y0CgYEA9J+yl8cQc3lHBvTE5D5j\njkXIuIG7VEM6eAbnAB/V54/EkaNLH6LDbJ6Xc6bvkw7Wr/W7FxK7EEGqpU3f5GTU\nVdt4Bp2xtYWpdpQ7t93oJO1Hzqw0DzwmpLleAoiy0I7wC7oP6mEEk1+BwKBeqjyy\n1ap5v1L5x4lvRw0qGuNFgoUCgYEA38a6qeqkazhxC/C7lWghAGpiGrPIXOoyTkkM\n4nPARKmGS+aeHVmmZ3g+idkGYQKx1pyFHoYYkl/ht/lNIhQBwUIhWnijQ3p5s4oq\nWzclucE39LTTBcyF+m8zmY2aGgXUPnIwP6wBxZLL3Zk70/lsiPcfwEqpVRJn+8zA\nOz/i74MCgYAHNDTEN36KiAXJdKffuN6hr/hrRpbHsnskUb+3xzg7a4Z0a4So19g9\neKYpJ79ia0tzPx9VXJ3ZqrVlzNdNGJMQPDhaqYY0PE1zSoY/se9GNx6oPXYDBNh2\nfWcBWBk7/xmensodMuI5nNRrYc2n4cW6eRzAv6bPc4KtavvUcuD3KQKBgFfoCJIR\nVA+ut3H6WqZBpp00LV/R+kbN1X89YStgT0pp0hDlAn4DJsSEzwR11fSsC1KEYCLy\niJqPwer0q2FUvK+/m7yfoXszlLV79FGq404KYkHl+vPPOV586qdKohvQ6GSzlNKe\nbn+/wAhIVuFZnVJcygNPESATP/gBog5kdXCjAoGAX28b44Uq7vBQQ+k261s1CaPF\n0xM1dBOCPC3DVDWKwjlQfdK9sC56xRRHONaDfH/oiHqCaibtN7Q92jkhc4uP4EP3\nJz6i46fgNwL7fNG1IopkwSOYfX7fQrW1flz4fDtRNsm+xvk5mFWNsuh+mVGl06Pu\nqiI8UyOXdZCEo6pIIeM=\n-----END PRIVATE KEY-----\n",
+",
     client_email: "firebase-adminsdk@app-for-me-2304e.iam.gserviceaccount.com",
-    client_id: "YOUR_CLIENT_ID",
+    client_id: "106922198899389740957",
     auth_uri: "https://accounts.google.com/o/oauth2/auth",
     token_uri: "https://oauth2.googleapis.com/token",
     auth_provider_x509_cert_url: "https://www.googleapis.com/oauth2/v1/certs",
-    client_x509_cert_url: "YOUR_CERT_URL"
+    client_x509_cert_url: "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40app-for-me-2304e.iam.gserviceaccount.c"
 };
 
 admin.initializeApp({
